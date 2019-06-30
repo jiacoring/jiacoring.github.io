@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jiacoring.coding.me/jiacoring</id>
+    <id>https://git.dev.tencent.com/jiacoring/jiacoring</id>
     <title>jiacoring全栈之路</title>
-    <updated>2019-06-30T14:23:47.637Z</updated>
+    <updated>2019-06-30T14:27:17.909Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://jiacoring.coding.me/jiacoring"/>
-    <link rel="self" href="https://jiacoring.coding.me/jiacoring/atom.xml"/>
+    <link rel="alternate" href="https://git.dev.tencent.com/jiacoring/jiacoring"/>
+    <link rel="self" href="https://git.dev.tencent.com/jiacoring/jiacoring/atom.xml"/>
     <subtitle>技术成就梦想，代码改变未来</subtitle>
-    <logo>https://jiacoring.coding.me/jiacoring/images/avatar.png</logo>
-    <icon>https://jiacoring.coding.me/jiacoring/favicon.ico</icon>
+    <logo>https://git.dev.tencent.com/jiacoring/jiacoring/images/avatar.png</logo>
+    <icon>https://git.dev.tencent.com/jiacoring/jiacoring/favicon.ico</icon>
     <rights>All rights reserved 2019, jiacoring全栈之路</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://jiacoring.coding.me/jiacoring/post/hello-gridea</id>
-        <link href="https://jiacoring.coding.me/jiacoring/post/hello-gridea">
+        <id>https://git.dev.tencent.com/jiacoring/jiacoring/post/hello-gridea</id>
+        <link href="https://git.dev.tencent.com/jiacoring/jiacoring/post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
