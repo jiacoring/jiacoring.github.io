@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Hello Gridea | jiacoring全栈之路</title>
+<title>Windows下安装配置go语言开发环境 | jiacoring全栈之路</title>
 <meta name="description" content="技术成就梦想，代码改变未来">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://jiacoring.github.io/favicon.ico?v=1561973756457">
+<link rel="shortcut icon" href="https://jiacoring.github.io/favicon.ico?v=1561976658552">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
@@ -81,40 +81,51 @@
       <div class="sm-12 md-8 col">
         <div class="paper">
           <article class="article">
-            <h1>Hello Gridea</h1>
+            <h1>Windows下安装配置go语言开发环境</h1>
             <p class="article-meta">
-              2018-12-12
+              2019-07-01
               
-                <a href="https://jiacoring.github.io/tag/gridea" class="badge warning">
-                  Gridea
+                <a href="https://jiacoring.github.io/tag/golang" class="badge secondary">
+                  go语言
                 </a>
               
             </p>
             
-              <img src="https://jiacoring.github.io/post-images/hello-gridea.png" alt="Hello Gridea">
+              <img src="https://jiacoring.github.io/post-images/go-env.png" alt="Windows下安装配置go语言开发环境">
             
             <div class="post-content">
-              <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="http://hvenotes.fehey.com/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>𝖶𝗂𝗇𝖽𝗈𝗐𝗌</strong> 或 <strong>𝖬𝖺𝖼𝖮𝖲</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+              <h2 id="一-下载和安装">一、下载和安装</h2>
+<p>在go语言官网下载Go SDK,
+英文官网：<a href="https://golang.google.cn/doc/install">The go programming language</a>
+<img src="https://jiacoring.github.io/post-images/1561974784889.png" alt="">
+中文社区：<a href="https://studygolang.com/dl">go语言中文网</a>
+<img src="https://jiacoring.github.io/post-images/godownload.png" alt="">
+我们选择相应的版本进行下载，适用于Windows、Linux、OS X等通用操作系统。</p>
+<h3 id="mac-os">Mac OS</h3>
+<p>下载完安装程序后。双击开始安装并且遵循安装提示，会将 Golang 安装到 /usr/local/go 目录下，同时 /usr/local/go/bin 文件夹也会被添加到 PATH 环境变量中。</p>
+<h3 id="windows">Windows</h3>
+<p>下载完 MSI 安装程序。双击开始安装并且遵循安装提示，会将 Golang 安装到 C:\Go 目录下，同时 c:\Go\bin 目录也会被添加到你的 PATH 环境变量中。</p>
+<h3 id="linux">Linux</h3>
+<p>下载 tar 文件，并解压到 /usr/local，解压命令，如：<code>tar -zxvf go1.12.5.linux-amd64.tar.gz -C /usr/local</code>
+然后添加 /usr/local/go/bin 到 PATH 环境变量中。Go 就已经成功安装在 Linux 上了。</p>
+<h2 id="二-查看是否安装成功">二、查看是否安装成功</h2>
+<p>在命令行输入<code>go version</code>查看go语言版本:
+<img src="https://jiacoring.github.io/post-images/version.png" alt="">
+在命令行输入<code>go env</code>查看配置的开发环境:
+<img src="https://jiacoring.github.io/post-images/env.png" alt="">
+其中，GOROOT环境变量是你安装Go SDK的位置，GOPATH是你go语言工作空间，下面有三个文件夹，如果没有自己要新建，bin文件夹存放的是生成的二进制可执行文件，pkg存放的是生成的依赖包，src存放的是编写的go源程序。我们写的程序都要放在这个目录下面。
+如果上述命令可以成功执行，恭喜你，go语言环境已经安装成功，现在可以走上go语言开发的旅途了。</p>
+<h2 id="三-编写helloworld">三、编写Hello，World</h2>
+<p>我们在src下新建一个jiacoring.com或者jiacoring.github.io文件夹，用来存放我们自己的源代码，便于区分。
+再新建一个hello文件夹，下面建一个main.go文件，写入：</p>
+<pre><code>package main
+import &quot;fmt&quot;
+
+func main(){
+	fmt.Println(&quot;Hello,world!&quot;)
+}
+</code></pre>
+<p>然后在命令行cd到hello文件夹下，执行<code>go run main.go</code>就可以看到打印出Hello,World了，是不是很容易呢？</p>
 
             </div>
           </article>
@@ -127,7 +138,7 @@
 
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
-    <img src="https://jiacoring.github.io/images/avatar.png?v=1561973756457" class="no-responsive avatar">
+    <img src="https://jiacoring.github.io/images/avatar.png?v=1561976658552" class="no-responsive avatar">
     <div class="text-muted">技术成就梦想，代码改变未来</div>
     <div class="social-container">
       
@@ -160,7 +171,7 @@
         
           
             <li>
-              <a href="https://jiacoring.github.io/post/hello-gridea">Hello Gridea</a>
+              <a href="https://jiacoring.github.io/post/go-env">Windows下安装配置go语言开发环境</a>
             </li>
           
         
@@ -173,8 +184,8 @@
     </div>
     <div class="row">
       
-        <a href="https://jiacoring.github.io/tag/gridea" class="badge success">
-          Gridea
+        <a href="https://jiacoring.github.io/tag/golang" class="badge warning">
+          go语言
         </a>
       
     </div>
